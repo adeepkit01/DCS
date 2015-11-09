@@ -1,0 +1,33 @@
+Java-Python Client Server IDE
+-----------------------------
+
+
+Requirments:
+             Client Side:
+                 Latest jdk and jre modules which can support java applet, swing and awt
+                 IcedTea Web Control
+             Server Side
+                 python-2.X
+                 gcc compiler
+                 g++ compiler
+                 Latest jre/jdk
+
+Server Side Execution:
+    python serv.py
+    This will ask for an input on which the server will listen
+
+
+Client Side Execution:
+    Compilation:
+        javac EventApplet.java -Xlint
+        [Xlint is needed for compiling deprecated thread functions]
+    Starting the GUI:
+        java EventApplet
+    In the GUI:
+        Enter IP address of the server
+        Enter port of the server
+        Enter the name of the program (.c/.cpp/.py/.java)
+        Write the program (.c and .cpp must return 0 at the end)
+        Enter the values which are to be entered from the standard input
+        Click on Run
+

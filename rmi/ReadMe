@@ -1,0 +1,28 @@
+Java RMI Client Server
+-------------------
+
+
+Requirments: Latest jdk and jre modules which can support java applet, swing, awt and RMI
+
+Compilation: Open the directory where all the codes are stored
+             javac *.java
+
+Execution: 
+
+Server Side:
+	   In one terminal start the server with
+           java Server
+
+Client Side:
+           Each client will run as a new process
+           Each time a client has to be run
+
+           java Client
+
+           The first message prompted will ask for the client name
+           The second message will ask for the server IP address
+
+           All the message in the chat will be broadcast
+           /list will show the list of all the users
+           /exit will quit the user
+
